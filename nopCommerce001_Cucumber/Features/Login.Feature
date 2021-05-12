@@ -2,7 +2,7 @@ Feature: Login
 
 Scenario: Successful Login with valid credentials
 	Given User Launch Chrome browser
-	When  User open URL "https://admin-demo.nopcommerce.com/"
+	When  User open URL "https://admin-demo.nopcommerce.com/login"
 	And   User enters Email as "admin@yourstore.com" and Password as "admin"
 	And   Click on login
 	Then  Page title should be "https://demo.nopcommerce.com/"
