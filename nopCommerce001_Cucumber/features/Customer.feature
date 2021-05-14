@@ -6,7 +6,7 @@ Feature: Validate the end to end functionality of customer Page
     And Click on login
 
   @Regression
-  #Scenario: Adding a new Customer
+  Scenario: Adding a new Customer
   Given User click on sideBar Customers link
   When User click on customer link inside customer side bar
   And I Click on Add New button
@@ -17,8 +17,8 @@ Feature: Validate the end to end functionality of customer Page
   Then I Close the Browser
   
 
-  @NotReady
-  Scenario: Search a customer with email address
+#  @NotReady
+#  Scenario: Search a customer with email address
   
   #@Regression
   #Scenario: Adding new Customer Role
